@@ -349,32 +349,3 @@ asset_classes_etf_table = """
 """
     
 st.write(asset_classes_etf_table)
-
-#****************************************************************************************************************************************
-# Add Linkedin
-
-linkedin_url = "https://www.linkedin.com/in/vascolaranjo/"
-
-linkedin_html = """
-    <style>
-        #linkedin-symbol {{
-            position: absolute;
-            top: 10px;
-            left: 10px;
-            display: flex;
-            align-items: center;
-        }}
-        .contact-text {{
-            margin-left: 5px;
-        }}
-    </style>
-    <div id="linkedin-symbol">
-        <a href="{url}" target="_blank">
-            <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg"
-                alt="LinkedIn" height="30" width="30">
-        </a>
-    <div class="contact-text">Contact me</div>
-    </div>
-"""
-
-st.sidebar.markdown(linkedin_html.format(url=linkedin_url), unsafe_allow_html=True)
