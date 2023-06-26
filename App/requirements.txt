@@ -1,3 +1,2 @@
 bokeh==2.4.3
 holoviews==1.15.2
-yahooquery==2.2.7
