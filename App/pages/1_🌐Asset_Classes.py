@@ -18,7 +18,7 @@ import holoviews as hv
 from holoviews import opts, dim
 from bokeh.models import HoverTool
 
-hv.extension('bokeh')
+#hv.extension('bokeh')
 
 # ********** Define the Frequencies and the Times **********
 # Define the frequencies and their corresponding time differences in days
