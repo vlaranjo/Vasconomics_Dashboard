@@ -57,9 +57,8 @@ def generate_heatmap(indices_list, indices_name_mapping, frequencies, last_bd):
         for frequency, num_days in frequencies.items():
             try:
                 start_date = (last_bd - num_days * us_bd).to_pydatetime().date()
-                filtered_prices = historical_prices.loc[
-                    pd.to_datetime(historical_prices['date']) >= pd.to_datetime(start_date)
-                ]
+                start_date = pd.to_datetime(start_date)
+                filtered_prices = historical_prices.loc[pd.to_datetime(historical_prices['date']).dt.tz_localize(None) >= start_date]
                 last_price = filtered_prices['adjclose'].iloc[-1]
                 start_price = filtered_prices['adjclose'].iloc[0]
                 freq_price_return = round(((last_price / start_price - 1) * 100), 2)
@@ -103,10 +102,10 @@ def generate_heatmap(indices_list, indices_name_mapping, frequencies, last_bd):
 
         heatmaps.append(heatmap)
 
-    indices_heatmap = hv.Overlay(heatmaps).opts(opts.Overlay(show_legend=False, height=400))
+    indices_heatmap = hv.Overlay(heatmaps).opts(opts.Overlay(show_legend=False, height=600))
     
     #Deploy the Holoviews figure
-    st.write(hv.render(indices_heatmap, backend='bokeh'))
+    st.bokeh_chart(hv.render(indices_heatmap, backend='bokeh'))
 
     start_date_text = datetime.datetime.strftime(start_date, "%m/%d/%Y")
     last_date_text = datetime.datetime.strftime(last_bd, "%m/%d/%Y")

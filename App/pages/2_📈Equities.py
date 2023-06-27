@@ -56,9 +56,8 @@ def generate_heatmap(indices_list, indices_name_mapping, frequencies, last_bd):
         for frequency, num_days in frequencies.items():
             try:
                 start_date = (last_bd - num_days * us_bd).to_pydatetime().date()
-                filtered_prices = historical_prices.loc[
-                    pd.to_datetime(historical_prices['date']) >= pd.to_datetime(start_date)
-                ]
+                start_date = pd.to_datetime(start_date)
+                filtered_prices = historical_prices.loc[pd.to_datetime(historical_prices['date']).dt.tz_localize(None) >= start_date]
                 last_price = filtered_prices['adjclose'].iloc[-1]
                 start_price = filtered_prices['adjclose'].iloc[0]
                 freq_price_return = round(((last_price / start_price - 1) * 100), 2)
@@ -102,10 +101,10 @@ def generate_heatmap(indices_list, indices_name_mapping, frequencies, last_bd):
 
         heatmaps.append(heatmap)
 
-    indices_heatmap = hv.Overlay(heatmaps).opts(opts.Overlay(show_legend=False, height=400))
+    indices_heatmap = hv.Overlay(heatmaps).opts(opts.Overlay(show_legend=False, height=600))
     
     #Deploy the Holoviews figure
-    st.write(hv.render(indices_heatmap, backend='bokeh'))
+    st.bokeh_chart(hv.render(indices_heatmap, backend='bokeh'))
 
     start_date_text = datetime.datetime.strftime(start_date, "%m/%d/%Y")
     last_date_text = datetime.datetime.strftime(last_bd, "%m/%d/%Y")
@@ -131,6 +130,11 @@ def generate_multiperformance_chart(indices_list, indices_name_mapping, frequenc
         historical_prices = historical_prices.reset_index()
         historical_prices = historical_prices[['date', 'adjclose']]
         historical_prices = historical_prices.rename(columns={'adjclose': indices_name_mapping[index]})
+
+        historical_prices['date'] = historical_prices['date'].dt.tz_convert('Europe/Berlin')
+        historical_prices['date'] = historical_prices['date'].dt.floor('D')
+        historical_prices['date'] = historical_prices['date'].dt.tz_convert('Europe/Berlin')
+
         if merged_prices_df.empty:
             merged_prices_df = historical_prices
         else:
@@ -142,9 +146,6 @@ def generate_multiperformance_chart(indices_list, indices_name_mapping, frequenc
     merged_prices_df = merged_prices_df.sort_values('date', ascending=True)
     merged_prices_df = merged_prices_df.fillna(method='ffill')
 
-    #Set column 'Date' as index
-    merged_prices_df = merged_prices_df.set_index('date')
-
     #To Create the Chart with the Dropdown list, will need to create a Dictionary
     ##Explanation: Need to Join the Datrames, which include the perforance data for each index for each frequency, in a Dictionary (3 Dimensions: date, index, and frequency) so that then there can be applied a list including each timeperiod
     multi_index_performance_dict = {}
@@ -152,9 +153,13 @@ def generate_multiperformance_chart(indices_list, indices_name_mapping, frequenc
     for frequency, num_days in frequencies.items():
         #Start Date based on each Frequency
         start_date = (last_bd - num_days * us_bd).to_pydatetime().date()
+        start_date = pd.to_datetime(start_date)
 
         #Filter/Slice the Dataframe based on the Frequency and Number of Days
-        filtered_merged_prices = merged_prices_df.loc[pd.to_datetime(merged_prices_df.index) >= pd.to_datetime(start_date)]
+        filtered_merged_prices = merged_prices_df.loc[pd.to_datetime(merged_prices_df['date']).dt.tz_localize(None) >= pd.to_datetime(start_date)]
+
+        #Set column 'Date' as index
+        filtered_merged_prices = filtered_merged_prices.set_index('date')
 
         #Calculate the Performance with base Index = 100
         filtered_merged_performance = filtered_merged_prices.pct_change().fillna(0)
@@ -195,7 +200,7 @@ def generate_multiperformance_chart(indices_list, indices_name_mapping, frequenc
     selected_timeperiod = st.selectbox(widget_name, timperiods_names, index=0, key=widget_name)
     
     #Deploy the Holoviews figure
-    st.write(hv.render(dmap[selected_timeperiod], backend='bokeh'), use_container_width=True)
+    st.bokeh_chart(hv.render(dmap[selected_timeperiod], backend='bokeh'), use_container_width=True)
 
     start_date_text = datetime.datetime.strftime(start_date, "%m/%d/%Y")
     last_date_text = datetime.datetime.strftime(last_bd, "%m/%d/%Y")
@@ -230,7 +235,8 @@ def generate_technical_analysis_chart(indices_list, indices_name_mapping, freque
         #Filter data for one year
         num_days = frequencies['1Y']
         start_date = (last_bd - num_days * us_bd).to_pydatetime().date()
-        filtered_prices = historical_prices.loc[pd.to_datetime(historical_prices['date']) >= pd.to_datetime(start_date)]
+        start_date = pd.to_datetime(start_date)
+        filtered_prices = historical_prices.loc[pd.to_datetime(historical_prices['date']).dt.tz_localize(None) >= start_date]
         filtered_prices = filtered_prices.set_index('date')
         multi_index_ta_dict[index_name] = filtered_prices
         
