@@ -18,7 +18,7 @@ import holoviews as hv
 from holoviews import opts, dim
 from bokeh.models import HoverTool
 
-#hv.extension('bokeh')
+hv.extension('bokeh')
 
 # ********** Define the Frequencies and the Times **********
 # Define the frequencies and their corresponding time differences in days
@@ -93,7 +93,7 @@ def generate_heatmap(indices_list, indices_name_mapping, frequencies, last_bd):
         data = melted_df[melted_df['Frequency'] == heatmap_row]
         heatmap = hv.HeatMap(data, label=f"Frequency {heatmap_row}")
         heatmap = heatmap.opts(
-            opts(width=700, height=115, xrotation=45, xaxis='top', labelled=[],
+            opts.HeatMap(width=700, height=115, xrotation=45, xaxis='top', labelled=[],
                          tools=['hover'], cmap='RdYlGn',
                          fontsize={'title': 15, 'xticks': 10, 'yticks': 10},
                          ))
