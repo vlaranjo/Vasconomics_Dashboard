@@ -260,7 +260,7 @@ def generate_averages_chart(indices_list, indices_name_mapping, frequencies, las
     selected_index= st.selectbox(widget_name, index_names, index=0, key=widget_name)
 
     #Deploy the Holoviews figures - Averages Graph
-    st.write(hv.render(dmap_avg[selected_index], backend='bokeh'), use_container_width=True)
+    st.bokeh_chart(hv.render(dmap_avg[selected_index], backend='bokeh'), use_container_width=True)
 
     start_date = multi_index_averages_dict[index_name].index[0]
     start_date_text = datetime.datetime.strftime(start_date, "%m/%d/%Y")
