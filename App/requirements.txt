@@ -1,5 +1,5 @@
 hvplot==0.8.1
-holoviews==1.15.0
+holoviews==1.14.4
 bokeh==2.2.2
 yahooquery==2.3.1
 ta-lib-bin==0.4.26
