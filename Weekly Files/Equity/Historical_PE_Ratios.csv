@@ -372,7 +372,7 @@ date,PE_ratio,index_name,index_type
 2025-11-01,23.2005,FTSE Global All Cap Index,region
 2025-12-01,22.2059,FTSE Global All Cap Index,region
 2026-01-01,22.4386,FTSE Global All Cap Index,region
-2026-02-01,22.3221,FTSE Global All Cap Index,region
+2026-02-01,22.5944,FTSE Global All Cap Index,region
 1871-01-01,11.1,CRSP US Total Market Index,region
 1871-02-01,11.25,CRSP US Total Market Index,region
 1871-03-01,11.52,CRSP US Total Market Index,region
@@ -2234,7 +2234,7 @@ date,PE_ratio,index_name,index_type
 2025-11-01,27.9393,CRSP US Total Market Index,region
 2025-12-01,26.5455,CRSP US Total Market Index,region
 2026-01-01,26.9652,CRSP US Total Market Index,region
-2026-02-01,26.6643,CRSP US Total Market Index,region
+2026-02-01,26.996,CRSP US Total Market Index,region
 1995-03-01,13.5404,FTSE Developed Europe All Cap Index,region
 1995-04-01,13.5517,FTSE Developed Europe All Cap Index,region
 1995-05-01,13.709,FTSE Developed Europe All Cap Index,region
@@ -2606,7 +2606,7 @@ date,PE_ratio,index_name,index_type
 2025-11-01,18.2976,FTSE Developed Europe All Cap Index,region
 2025-12-01,17.9918,FTSE Developed Europe All Cap Index,region
 2026-01-01,18.6819,FTSE Developed Europe All Cap Index,region
-2026-02-01,18.7588,FTSE Developed Europe All Cap Index,region
+2026-02-01,18.8933,FTSE Developed Europe All Cap Index,region
 1995-01-01,55.2616,MSCI Japan Index,region
 1995-02-01,49.1473,MSCI Japan Index,region
 1995-03-01,44.5114,MSCI Japan Index,region
@@ -2980,7 +2980,7 @@ date,PE_ratio,index_name,index_type
 2025-11-01,17.5707,MSCI Japan Index,region
 2025-12-01,16.2407,MSCI Japan Index,region
 2026-01-01,17.4626,MSCI Japan Index,region
-2026-02-01,17.8041,MSCI Japan Index,region
+2026-02-01,18.2123,MSCI Japan Index,region
 1995-11-01,12.4127,MSCI AC Asia ex Japan Index,region
 1995-12-01,11.8323,MSCI AC Asia ex Japan Index,region
 1996-01-01,12.4705,MSCI AC Asia ex Japan Index,region
@@ -3344,7 +3344,7 @@ date,PE_ratio,index_name,index_type
 2025-11-01,17.1162,MSCI AC Asia ex Japan Index,region
 2025-12-01,16.8649,MSCI AC Asia ex Japan Index,region
 2026-01-01,17.5938,MSCI AC Asia ex Japan Index,region
-2026-02-01,17.4377,MSCI AC Asia ex Japan Index,region
+2026-02-01,17.8429,MSCI AC Asia ex Japan Index,region
 1995-11-01,11.5147,MSCI Emerging Markets Index,region
 1995-12-01,11.0787,MSCI Emerging Markets Index,region
 1996-01-01,12.3059,MSCI Emerging Markets Index,region
@@ -3708,7 +3708,7 @@ date,PE_ratio,index_name,index_type
 2025-11-01,16.0819,MSCI Emerging Markets Index,region
 2025-12-01,15.7359,MSCI Emerging Markets Index,region
 2026-01-01,16.6897,MSCI Emerging Markets Index,region
-2026-02-01,16.5824,MSCI Emerging Markets Index,region
+2026-02-01,16.9637,MSCI Emerging Markets Index,region
 1996-01-01,14.6256,FTSE Latin America RIC Capped Index,region
 1996-02-01,13.9401,FTSE Latin America RIC Capped Index,region
 1996-03-01,13.3193,FTSE Latin America RIC Capped Index,region
@@ -4070,7 +4070,7 @@ date,PE_ratio,index_name,index_type
 2025-11-01,10.7452,FTSE Latin America RIC Capped Index,region
 2025-12-01,10.5482,FTSE Latin America RIC Capped Index,region
 2026-01-01,12.3147,FTSE Latin America RIC Capped Index,region
-2026-02-01,12.4887,FTSE Latin America RIC Capped Index,region
+2026-02-01,12.6716,FTSE Latin America RIC Capped Index,region
 1871-01-01,11.1,S&P 500 Index,country
 1871-02-01,11.25,S&P 500 Index,country
 1871-03-01,11.52,S&P 500 Index,country
@@ -5932,7 +5932,7 @@ date,PE_ratio,index_name,index_type
 2025-11-01,28.3553,S&P 500 Index,country
 2025-12-01,27.6082,S&P 500 Index,country
 2026-01-01,27.7085,S&P 500 Index,country
-2026-02-01,27.3781,S&P 500 Index,country
+2026-02-01,27.6544,S&P 500 Index,country
 1995-03-01,13.5404,FTSE Developed Europe All Cap Index,region
 1995-04-01,13.5517,FTSE Developed Europe All Cap Index,region
 1995-05-01,13.709,FTSE Developed Europe All Cap Index,region
@@ -6304,7 +6304,7 @@ date,PE_ratio,index_name,index_type
 2025-11-01,18.2976,FTSE Developed Europe All Cap Index,region
 2025-12-01,17.9918,FTSE Developed Europe All Cap Index,region
 2026-01-01,18.6819,FTSE Developed Europe All Cap Index,region
-2026-02-01,18.7588,FTSE Developed Europe All Cap Index,region
+2026-02-01,18.8933,FTSE Developed Europe All Cap Index,region
 1994-12-01,11.8011,MSCI United Kingdom Index,country
 1995-01-01,11.8011,MSCI United Kingdom Index,country
 1995-02-01,11.9155,MSCI United Kingdom Index,country
@@ -6679,7 +6679,7 @@ date,PE_ratio,index_name,index_type
 2025-11-01,19.2248,MSCI United Kingdom Index,country
 2025-12-01,19.7134,MSCI United Kingdom Index,country
 2026-01-01,20.4615,MSCI United Kingdom Index,country
-2026-02-01,20.7784,MSCI United Kingdom Index,country
+2026-02-01,20.7895,MSCI United Kingdom Index,country
 1994-12-01,12.3407,MSCI Switzerland Index,country
 1995-01-01,12.3407,MSCI Switzerland Index,country
 1995-02-01,12.395,MSCI Switzerland Index,country
@@ -7054,7 +7054,7 @@ date,PE_ratio,index_name,index_type
 2025-11-01,22.489,MSCI Switzerland Index,country
 2025-12-01,23.4829,MSCI Switzerland Index,country
 2026-01-01,24.0191,MSCI Switzerland Index,country
-2026-02-01,24.3509,MSCI Switzerland Index,country
+2026-02-01,24.6241,MSCI Switzerland Index,country
 1995-01-01,55.2616,MSCI Japan Index,region
 1995-02-01,49.1473,MSCI Japan Index,region
 1995-03-01,44.5114,MSCI Japan Index,region
@@ -7428,7 +7428,7 @@ date,PE_ratio,index_name,index_type
 2025-11-01,17.5707,MSCI Japan Index,region
 2025-12-01,16.2407,MSCI Japan Index,region
 2026-01-01,17.4626,MSCI Japan Index,region
-2026-02-01,17.8041,MSCI Japan Index,region
+2026-02-01,18.2123,MSCI Japan Index,region
 1995-01-01,11.9308,MSCI Australia Index,country
 1995-02-01,11.7133,MSCI Australia Index,country
 1995-03-01,11.5379,MSCI Australia Index,country
@@ -7802,7 +7802,7 @@ date,PE_ratio,index_name,index_type
 2025-11-01,20.6292,MSCI Australia Index,country
 2025-12-01,20.2626,MSCI Australia Index,country
 2026-01-01,22.0358,MSCI Australia Index,country
-2026-02-01,22.4249,MSCI Australia Index,country
+2026-02-01,22.417,MSCI Australia Index,country
 1995-11-01,9.1431,FTSE China 50 Index,country
 1995-12-01,8.7435,FTSE China 50 Index,country
 1996-01-01,9.7522,FTSE China 50 Index,country
@@ -8166,7 +8166,7 @@ date,PE_ratio,index_name,index_type
 2025-11-01,10.6495,FTSE China 50 Index,country
 2025-12-01,10.6659,FTSE China 50 Index,country
 2026-01-01,10.8375,FTSE China 50 Index,country
-2026-02-01,10.4407,FTSE China 50 Index,country
+2026-02-01,10.7308,FTSE China 50 Index,country
 1994-12-01,16.2731,MSCI India Index,country
 1995-01-01,15.0535,MSCI India Index,country
 1995-02-01,14.568,MSCI India Index,country
@@ -8541,7 +8541,7 @@ date,PE_ratio,index_name,index_type
 2025-11-01,24.9579,MSCI India Index,country
 2025-12-01,24.6569,MSCI India Index,country
 2026-01-01,23.6031,MSCI India Index,country
-2026-02-01,24.2759,MSCI India Index,country
+2026-02-01,24.3056,MSCI India Index,country
 1995-01-01,33.9095,MSCI Brazil Index,country
 1995-02-01,33.1624,MSCI Brazil Index,country
 1995-03-01,33.1892,MSCI Brazil Index,country
@@ -8915,7 +8915,7 @@ date,PE_ratio,index_name,index_type
 2025-11-01,10.8426,MSCI Brazil Index,country
 2025-12-01,10.3673,MSCI Brazil Index,country
 2026-01-01,12.4255,MSCI Brazil Index,country
-2026-02-01,12.3585,MSCI Brazil Index,country
+2026-02-01,12.6,MSCI Brazil Index,country
 1994-12-01,15.4497,MSCI South Korea Index,country
 1995-01-01,13.8362,MSCI South Korea Index,country
 1995-02-01,13.6491,MSCI South Korea Index,country
@@ -9290,7 +9290,7 @@ date,PE_ratio,index_name,index_type
 2025-11-01,14.363,MSCI South Korea Index,country
 2025-12-01,13.6936,MSCI South Korea Index,country
 2026-01-01,16.4568,MSCI South Korea Index,country
-2026-02-01,16.2794,MSCI South Korea Index,country
+2026-02-01,16.7661,MSCI South Korea Index,country
 1994-12-01,13.0629,MSCI South Africa Index,country
 1995-01-01,12.5457,MSCI South Africa Index,country
 1995-02-01,12.2173,MSCI South Africa Index,country
@@ -9665,7 +9665,7 @@ date,PE_ratio,index_name,index_type
 2025-11-01,14.9085,MSCI South Africa Index,country
 2025-12-01,15.1658,MSCI South Africa Index,country
 2026-01-01,16.3071,MSCI South Africa Index,country
-2026-02-01,16.2514,MSCI South Africa Index,country
+2026-02-01,16.6569,MSCI South Africa Index,country
 1994-12-01,11.1645,MSCI Mexico Index,country
 1995-01-01,10.3043,MSCI Mexico Index,country
 1995-02-01,9.6783,MSCI Mexico Index,country
@@ -10040,7 +10040,7 @@ date,PE_ratio,index_name,index_type
 2025-11-01,12.9939,MSCI Mexico Index,country
 2025-12-01,13.3683,MSCI Mexico Index,country
 2026-01-01,14.6232,MSCI Mexico Index,country
-2026-02-01,14.9756,MSCI Mexico Index,country
+2026-02-01,15.5479,MSCI Mexico Index,country
 1995-01-01,4.2435,MSCI Turkey Index,country
 1995-02-01,4.3429,MSCI Turkey Index,country
 1995-03-01,4.2508,MSCI Turkey Index,country
@@ -10414,7 +10414,7 @@ date,PE_ratio,index_name,index_type
 2025-11-01,13.3268,MSCI Turkey Index,country
 2025-12-01,12.4445,MSCI Turkey Index,country
 2026-01-01,14.2179,MSCI Turkey Index,country
-2026-02-01,14.2679,MSCI Turkey Index,country
+2026-02-01,14.0766,MSCI Turkey Index,country
 1995-06-01,7.6562,MSCI Poland Index,country
 1995-07-01,5.6126,MSCI Poland Index,country
 1995-08-01,5.6126,MSCI Poland Index,country
@@ -10783,7 +10783,7 @@ date,PE_ratio,index_name,index_type
 2025-11-01,12.4742,MSCI Poland Index,country
 2025-12-01,12.4577,MSCI Poland Index,country
 2026-01-01,13.3485,MSCI Poland Index,country
-2026-02-01,13.5527,MSCI Poland Index,country
+2026-02-01,13.4657,MSCI Poland Index,country
 1995-01-01,13.2936,MSCI Indonesia Index,country
 1995-02-01,15.87,MSCI Indonesia Index,country
 1995-03-01,16.39,MSCI Indonesia Index,country
@@ -11157,7 +11157,7 @@ date,PE_ratio,index_name,index_type
 2025-11-01,12.8262,MSCI Indonesia Index,country
 2025-12-01,12.9974,MSCI Indonesia Index,country
 2026-01-01,11.9804,MSCI Indonesia Index,country
-2026-02-01,12.0924,MSCI Indonesia Index,country
+2026-02-01,11.9465,MSCI Indonesia Index,country
 1995-01-01,26.2634,MSCI Taiwan Index,country
 1995-02-01,24.3982,MSCI Taiwan Index,country
 1995-03-01,23.9965,MSCI Taiwan Index,country
@@ -11531,7 +11531,7 @@ date,PE_ratio,index_name,index_type
 2025-11-01,19.7993,MSCI Taiwan Index,country
 2025-12-01,18.928,MSCI Taiwan Index,country
 2026-01-01,20.8423,MSCI Taiwan Index,country
-2026-02-01,20.8607,MSCI Taiwan Index,country
+2026-02-01,21.4517,MSCI Taiwan Index,country
 1871-01-01,11.1,S&P 500 Index,country
 1871-02-01,11.25,S&P 500 Index,country
 1871-03-01,11.52,S&P 500 Index,country
@@ -13393,7 +13393,7 @@ date,PE_ratio,index_name,index_type
 2025-11-01,28.3553,S&P 500 Index,country
 2025-12-01,27.6082,S&P 500 Index,country
 2026-01-01,27.7085,S&P 500 Index,country
-2026-02-01,27.3781,S&P 500 Index,country
+2026-02-01,27.6544,S&P 500 Index,country
 1995-02-01,14.2107,S&P 500 Information Technology Index,sector
 1995-03-01,14.2107,S&P 500 Information Technology Index,sector
 1995-04-01,14.1296,S&P 500 Information Technology Index,sector
@@ -13766,7 +13766,7 @@ date,PE_ratio,index_name,index_type
 2025-11-01,39.83,S&P 500 Information Technology Index,sector
 2025-12-01,38.9114,S&P 500 Information Technology Index,sector
 2026-01-01,38.2044,S&P 500 Information Technology Index,sector
-2026-02-01,36.3191,S&P 500 Information Technology Index,sector
+2026-02-01,37.4742,S&P 500 Information Technology Index,sector
 2006-01-01,35.7584,S&P 500 Real Estate Index,sector
 2006-02-01,40.9824,S&P 500 Real Estate Index,sector
 2006-03-01,39.3696,S&P 500 Real Estate Index,sector
@@ -14008,7 +14008,7 @@ date,PE_ratio,index_name,index_type
 2025-11-01,33.9358,S&P 500 Real Estate Index,sector
 2025-12-01,33.1264,S&P 500 Real Estate Index,sector
 2026-01-01,33.6747,S&P 500 Real Estate Index,sector
-2026-02-01,33.7316,S&P 500 Real Estate Index,sector
+2026-02-01,34.1299,S&P 500 Real Estate Index,sector
 1995-02-01,11.5047,S&P 500 Consumer Discretionary Index,sector
 1995-03-01,11.5047,S&P 500 Consumer Discretionary Index,sector
 1995-04-01,11.5994,S&P 500 Consumer Discretionary Index,sector
@@ -14381,7 +14381,7 @@ date,PE_ratio,index_name,index_type
 2025-11-01,30.0362,S&P 500 Consumer Discretionary Index,sector
 2025-12-01,29.0947,S&P 500 Consumer Discretionary Index,sector
 2026-01-01,29.9376,S&P 500 Consumer Discretionary Index,sector
-2026-02-01,29.5967,S&P 500 Consumer Discretionary Index,sector
+2026-02-01,29.1519,S&P 500 Consumer Discretionary Index,sector
 1995-02-01,14.2963,S&P 500 Consumer Staples Index,sector
 1995-03-01,14.2963,S&P 500 Consumer Staples Index,sector
 1995-04-01,14.9058,S&P 500 Consumer Staples Index,sector
@@ -14754,7 +14754,7 @@ date,PE_ratio,index_name,index_type
 2025-11-01,22.349,S&P 500 Consumer Staples Index,sector
 2025-12-01,22.0145,S&P 500 Consumer Staples Index,sector
 2026-01-01,24.3695,S&P 500 Consumer Staples Index,sector
-2026-02-01,25.4113,S&P 500 Consumer Staples Index,sector
+2026-02-01,25.6622,S&P 500 Consumer Staples Index,sector
 1995-02-01,12.6702,S&P 500 Industrials Index,sector
 1995-03-01,12.6702,S&P 500 Industrials Index,sector
 1995-04-01,12.8901,S&P 500 Industrials Index,sector
@@ -15127,7 +15127,7 @@ date,PE_ratio,index_name,index_type
 2025-11-01,27.2037,S&P 500 Industrials Index,sector
 2025-12-01,26.0757,S&P 500 Industrials Index,sector
 2026-01-01,27.4236,S&P 500 Industrials Index,sector
-2026-02-01,27.9432,S&P 500 Industrials Index,sector
+2026-02-01,28.7066,S&P 500 Industrials Index,sector
 1995-02-01,14.4438,S&P 500 Health Care Index,sector
 1995-03-01,14.4438,S&P 500 Health Care Index,sector
 1995-04-01,14.4438,S&P 500 Health Care Index,sector
@@ -15500,7 +15500,7 @@ date,PE_ratio,index_name,index_type
 2025-11-01,26.3757,S&P 500 Health Care Index,sector
 2025-12-01,26.2793,S&P 500 Health Care Index,sector
 2026-01-01,25.5421,S&P 500 Health Care Index,sector
-2026-02-01,25.7872,S&P 500 Health Care Index,sector
+2026-02-01,26.0323,S&P 500 Health Care Index,sector
 1995-01-01,12.1194,S&P 500 Materials Index,sector
 1995-02-01,11.7042,S&P 500 Materials Index,sector
 1995-03-01,10.949,S&P 500 Materials Index,sector
@@ -15874,7 +15874,7 @@ date,PE_ratio,index_name,index_type
 2025-11-01,24.9595,S&P 500 Materials Index,sector
 2025-12-01,23.1675,S&P 500 Materials Index,sector
 2026-01-01,24.3031,S&P 500 Materials Index,sector
-2026-02-01,25.3833,S&P 500 Materials Index,sector
+2026-02-01,25.408,S&P 500 Materials Index,sector
 1995-03-01,11.1325,S&P 500 Utilities Index,sector
 1995-04-01,11.1041,S&P 500 Utilities Index,sector
 1995-05-01,11.4011,S&P 500 Utilities Index,sector
@@ -16246,7 +16246,7 @@ date,PE_ratio,index_name,index_type
 2025-11-01,22.3417,S&P 500 Utilities Index,sector
 2025-12-01,22.0068,S&P 500 Utilities Index,sector
 2026-01-01,21.7538,S&P 500 Utilities Index,sector
-2026-02-01,21.7588,S&P 500 Utilities Index,sector
+2026-02-01,21.804,S&P 500 Utilities Index,sector
 1995-02-01,15.494,S&P 500 Energy Index,sector
 1995-03-01,15.494,S&P 500 Energy Index,sector
 1995-04-01,15.8812,S&P 500 Energy Index,sector
@@ -16619,7 +16619,7 @@ date,PE_ratio,index_name,index_type
 2025-11-01,17.3849,S&P 500 Energy Index,sector
 2025-12-01,17.601,S&P 500 Energy Index,sector
 2026-01-01,19.4111,S&P 500 Energy Index,sector
-2026-02-01,20.0156,S&P 500 Energy Index,sector
+2026-02-01,20.2476,S&P 500 Energy Index,sector
 1995-02-01,12.1581,S&P 500 Communication Services Index,sector
 1995-03-01,12.5583,S&P 500 Communication Services Index,sector
 1995-04-01,12.5583,S&P 500 Communication Services Index,sector
@@ -16992,7 +16992,7 @@ date,PE_ratio,index_name,index_type
 2025-11-01,18.5369,S&P 500 Communication Services Index,sector
 2025-12-01,18.3204,S&P 500 Communication Services Index,sector
 2026-01-01,18.3881,S&P 500 Communication Services Index,sector
-2026-02-01,17.8752,S&P 500 Communication Services Index,sector
+2026-02-01,17.7266,S&P 500 Communication Services Index,sector
 1995-03-01,8.6794,S&P 500 Financials Index,sector
 1995-04-01,9.0711,S&P 500 Financials Index,sector
 1995-05-01,9.0711,S&P 500 Financials Index,sector
@@ -17364,4 +17364,4 @@ date,PE_ratio,index_name,index_type
 2025-11-01,18.5311,S&P 500 Financials Index,sector
 2025-12-01,18.1571,S&P 500 Financials Index,sector
 2026-01-01,18.0109,S&P 500 Financials Index,sector
-2026-02-01,18.171,S&P 500 Financials Index,sector
+2026-02-01,18.2873,S&P 500 Financials Index,sector
